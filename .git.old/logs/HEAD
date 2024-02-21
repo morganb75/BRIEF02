@@ -1,0 +1,20 @@
+0000000000000000000000000000000000000000 d6d12ea218e0e6f56508e662c0574fd890811589 morganb <morgan.bleunven@maif.fr> 1708442450 +0100	clone: from https://github.com/morganb75/Brief02-Morgan-Jeremy.git
+d6d12ea218e0e6f56508e662c0574fd890811589 07b2b3e07a98cc6cfa715c58d55428cb629fb23e morganb <morgan.bleunven@maif.fr> 1708442535 +0100	commit: morgan le retour
+07b2b3e07a98cc6cfa715c58d55428cb629fb23e 23724af0ebcf5b8739d08ed144a812cd73d647f0 morganb <morgan.bleunven@maif.fr> 1708442564 +0100	checkout: moving from main to morgan
+23724af0ebcf5b8739d08ed144a812cd73d647f0 3475b4aa421eb53263d3a703903f6f0b474f838b morganb <morgan.bleunven@maif.fr> 1708444437 +0100	commit: fin de journee
+3475b4aa421eb53263d3a703903f6f0b474f838b 6af6ed155bf68a000c6ae3891f9f277100cbba04 morganb <morgan.bleunven@maif.fr> 1708503091 +0100	commit: maj
+6af6ed155bf68a000c6ae3891f9f277100cbba04 08b5be4cdd83cfec32fe62e378abdb8e44df9da1 morganb <morgan.bleunven@maif.fr> 1708503123 +0100	pull origin morgan (start): checkout 08b5be4cdd83cfec32fe62e378abdb8e44df9da1
+08b5be4cdd83cfec32fe62e378abdb8e44df9da1 8c9f8eed6b7f2eade9a2a87a265824bf1783a4ea morganb <morgan.bleunven@maif.fr> 1708503626 +0100	rebase (continue): maj
+8c9f8eed6b7f2eade9a2a87a265824bf1783a4ea 8c9f8eed6b7f2eade9a2a87a265824bf1783a4ea morganb <morgan.bleunven@maif.fr> 1708503628 +0100	rebase (continue) (finish): returning to refs/heads/morgan
+8c9f8eed6b7f2eade9a2a87a265824bf1783a4ea 14eb0a14e1d39ba9b42f00bc76d3e67d97bba597 morganb <morgan.bleunven@maif.fr> 1708506958 +0100	commit (merge): Merge branch 'main' into morgan
+14eb0a14e1d39ba9b42f00bc76d3e67d97bba597 1e07df912e4053f63a23b93c01a2b6cb4015cf1d morganb <morgan.bleunven@maif.fr> 1708507074 +0100	commit: maj
+1e07df912e4053f63a23b93c01a2b6cb4015cf1d 07b2b3e07a98cc6cfa715c58d55428cb629fb23e morganb <morgan.bleunven@maif.fr> 1708507117 +0100	checkout: moving from morgan to main
+07b2b3e07a98cc6cfa715c58d55428cb629fb23e 6b358d97c7913260cbcc485937fd903f15cfc20a morganb <morgan.bleunven@maif.fr> 1708507146 +0100	merge morgan: Merge made by the 'ort' strategy.
+6b358d97c7913260cbcc485937fd903f15cfc20a 3c473d4b399180c31099f669c5687ac203d55428 morganb <morgan.bleunven@maif.fr> 1708507196 +0100	pull (start): checkout 3c473d4b399180c31099f669c5687ac203d55428
+3c473d4b399180c31099f669c5687ac203d55428 0543eeb16710922106d4f97e04483b7d29a63f9f morganb <morgan.bleunven@maif.fr> 1708507307 +0100	commit: ras le bol de git!
+0543eeb16710922106d4f97e04483b7d29a63f9f 028c84a0c258d99a649a91ec5f3060257ead0190 morganb <morgan.bleunven@maif.fr> 1708507397 +0100	rebase (continue) (pick): slider.js OK
+028c84a0c258d99a649a91ec5f3060257ead0190 1b33eadd3b10481b8fa17786097de5ad8a7e4967 morganb <morgan.bleunven@maif.fr> 1708507397 +0100	rebase (continue) (pick): MAJ css page film
+1b33eadd3b10481b8fa17786097de5ad8a7e4967 cf9ef9c93fbdf8cf2dfc25f3f12eb982c51abfba morganb <morgan.bleunven@maif.fr> 1708507397 +0100	rebase (continue) (pick): maj
+cf9ef9c93fbdf8cf2dfc25f3f12eb982c51abfba 5b195798ac3e57ed93671fa3b96f5f40d26ccaed morganb <morgan.bleunven@maif.fr> 1708507397 +0100	rebase (continue) (pick): maj
+5b195798ac3e57ed93671fa3b96f5f40d26ccaed 5b195798ac3e57ed93671fa3b96f5f40d26ccaed morganb <morgan.bleunven@maif.fr> 1708507397 +0100	rebase (continue) (finish): returning to refs/heads/main
+5b195798ac3e57ed93671fa3b96f5f40d26ccaed 2ddddaa7971c43fa2e0a536ee7e3771f8613d56e morganb <morgan.bleunven@maif.fr> 1708507422 +0100	commit: maj
