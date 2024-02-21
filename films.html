@@ -4,8 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- <link rel="stylesheet" href="./style/film.css"> -->
-    <link rel="stylesheet" href="./style/film2.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style/headerFooter.css">
+    <link rel="stylesheet" href="./style/filmMediaQueries.css">
+    <link rel="stylesheet" href="./style/film.css">
+    
     <script defer src="./assets/injectHeaderFooter.js"></script>
     <script defer src="./assets/burger.js"></script>
     <script defer src="./assets/slider.js"></script>
@@ -15,17 +18,19 @@
   <header>
   </header>
   <main>
-    <div class="btn-slider">
-      <button class="prev">prev</button>
+    <div class="card-id" hidden ></div>
+    <div class="card-container-img">
+      <img class="card-img" src=""  alt="image_film">
     </div>
     <div class="card-container">
-        <div class="card-id" hidden ></div>
-        <img class="card-img" src=""  alt="image_film">
+      <div class="card-container-text">
         <p class="card-title"></p>
         <p class="card-description"></p>
-    </div>
-    <div class="btn-slider">
-      <button class="next">next</button>
+      </div>
+      <div class="card-container-btn">
+        <button class="prev">prev</button>
+        <button class="next">next</button>
+      </div>
     </div>
   </main>
   <footer></footer>  

@@ -8,7 +8,7 @@ window.addEventListener('load', () => {
     <img src="./assets/img/Dragon-Ball-Logo.png" alt="Logo" >
 </div>
 <div class="nav-container">
-    <nav class="nav-m">
+    <nav class="nav-a">
         <a href="./presentation.html">Présentation</a>
         <a href="./films.html">Films</a>
         <a href="./contact.html">Contact</a>
@@ -30,5 +30,5 @@ window.addEventListener('load', () => {
     `<div>
         <p>Dragon Ball Z - &copy2024</p>
     </div>`
-    console.log("INJECTION HEADER FOOTER");
+    // console.log("INJECTION HEADER FOOTER");
 })

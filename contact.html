@@ -3,8 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./style/headerFooter.css">
+    <link rel="stylesheet" href="./style/filmMediaQueries.css">
     <link rel="stylesheet" href="./style/contact.css">
     <script defer src="./assets/injectHeaderFooter.js"></script>
+    <script defer src="./assets/burger.js"></script>
     <title>Nous Contacter</title>
 </head>
 <body>
@@ -12,27 +16,26 @@
     </header>
     <main>
         <h1>NOUS CONTACTER :</h1>
-        
         <form action="#" method="post">
             <ul>
                 <li>
-                    <label for="name">Name:</label>
+                    <label for="name">Name</label>
                     <input type="text">
                 </li>
                 <li>
-                    <label for="first-name">First-Name:</label>
+                    <label for="first-name">First-Name</label>
                     <input type="text">
                 </li>
                 <li>
-                    <label for="Email">Email:</label>
+                    <label for="Email">Email</label>
                     <input type="email">
                 </li>
                 <li>
-                    <label for="message">Message:</label>
+                    <label for="message">Message</label>
                     <textarea name="message" id="" cols="30" rows="10"></textarea>
+                    <input type="submit" value="SEND MESSAGE">
                 </li>
             </ul>
-            <button type="submit">SEND MESSAGE</button>
         </form>
     </main>
     <footer>
