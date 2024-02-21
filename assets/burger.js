@@ -11,8 +11,6 @@ window.addEventListener('load', () => {
     burgerIcone.addEventListener('click', () => {
         
         burgerIcone.classList.add ('inactive');
-        // burgerIcone.classList.remove ('active');
         menuDiv.classList.add('active');
-        // menuDiv.classList.remove('inactive');
     })
 })

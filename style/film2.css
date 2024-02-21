@@ -8,6 +8,7 @@
 body {
     display: flex;
     flex-direction: column;
+    min-height: 100%;
 }
 
 header {
@@ -15,12 +16,22 @@ header {
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    min-height: 10vh;
-    padding:30px;
+    /* height: 5%; */
+    padding:5px;
     background: black;
     color: white;
     font-size: 1.2rem;
 }
+
+/* MISE EN FORME DU SLIDER*/
+
+
+
+
+
+
+/*-------------------------*/
+/* MISE EN FORME HEADER/FOOTER*/
 
 a {
     color: white;
@@ -30,6 +41,7 @@ ul {
     list-style-type: none;
 }
 
+
 .logo {
     display: flex;
     justify-content: center;
@@ -37,27 +49,13 @@ ul {
     height: 100px;
 }
 
-main {
-    /* display: flex; */
-    min-height: 75vh;
-    background-image: url('../assets/img/dragon-ball.jpg');
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    opacity: 0.9;
-    background-color: blueviolet;
-    /* background: url("../assets/img/dragon-ball.jpg"); */
-}
-
 footer {
     display: flex;
-    min-height: 5vh;
-    padding:30px;
+    padding:15px;
     background: black;
     color: white;
     justify-content: center;
 }
-
 
 .white-icone {
     color:white;
@@ -83,7 +81,7 @@ footer {
 .inactive {
     display: none;
 }
-
+/*-------------------------*/
 
 /* Media query pour les ecrans
  de taille moyenne de 768px à 1023px */
@@ -130,6 +128,3 @@ footer {
         display: none;
     }   
 }
-
-
-
