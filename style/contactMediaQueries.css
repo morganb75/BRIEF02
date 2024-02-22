@@ -62,24 +62,5 @@
     .logo img {
         width: 200px;
         height: 80px;
-    }
-    
-    .menu-brger {
-        display: block;
-    }
-
-    .menu {
-        display: none;
-    }
-
-    .active {
-        display: block;
-    }
-    
-    .inactive {
-        display: none;
-    }
-    .nav-container, .home {
-        display: none;
-    }   
+    }       
 }

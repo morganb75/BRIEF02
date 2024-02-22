@@ -24,14 +24,14 @@ form {
     height: 50%;
 }
 
-ul {
+.form-ul {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: stretch;
 }
 
-li {
+.form-li {
     display: flex;
     flex-direction: column;
     margin-bottom: 10px;

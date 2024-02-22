@@ -20,12 +20,12 @@ window.addEventListener('load', () => {
     <i id="icon" class="fa-solid fa-bars white-icone"></i>
 </div>
 <div class="menu">
-    <ul>
-        <li><a href="./home.html">Home</a></li>
-        <li><a href="./recherche.html">Recherche</a></li>
-        <li><a href="./presentation.html">Présentation</a></li>
-        <li><a href="./films.html">Films</a></li>
-        <li><a href="./contact.html">Contact</a></li>
+    <ul class="menu-ul">
+        <li class="menu-li" ><a class="menu-a" href="./home.html">Home</a></li>
+        <li class="menu-li" ><a class="menu-a" href="./recherche.html">Recherche</a></li>
+        <li class="menu-li" ><a class="menu-a" href="./presentation.html">Présentation</a></li>
+        <li class="menu-li" ><a class="menu-a" href="./films.html">Films</a></li>
+        <li class="menu-li" ><a class="menu-a" href="./contact.html">Contact</a></li>
     </ul>
 </div>`
     document.querySelector('footer').innerHTML =
