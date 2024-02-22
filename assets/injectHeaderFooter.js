@@ -3,6 +3,8 @@ window.addEventListener('load', () => {
     document.querySelector('header').innerHTML =
         ` <div class="home">
     <a href="./home.html">Home</a>
+    <a href="./recherche.html">Recherche</a>
+
 </div>
 <div class="logo">
     <img src="./assets/img/Dragon-Ball-Logo.png" alt="Logo" >
