@@ -1,6 +1,0 @@
-0000000000000000000000000000000000000000 23724af0ebcf5b8739d08ed144a812cd73d647f0 morganb <morgan.bleunven@maif.fr> 1708442564 +0100	branch: Created from refs/remotes/origin/morgan
-23724af0ebcf5b8739d08ed144a812cd73d647f0 3475b4aa421eb53263d3a703903f6f0b474f838b morganb <morgan.bleunven@maif.fr> 1708444437 +0100	commit: fin de journee
-3475b4aa421eb53263d3a703903f6f0b474f838b 6af6ed155bf68a000c6ae3891f9f277100cbba04 morganb <morgan.bleunven@maif.fr> 1708503091 +0100	commit: maj
-6af6ed155bf68a000c6ae3891f9f277100cbba04 8c9f8eed6b7f2eade9a2a87a265824bf1783a4ea morganb <morgan.bleunven@maif.fr> 1708503628 +0100	rebase (continue) (finish): refs/heads/morgan onto 08b5be4cdd83cfec32fe62e378abdb8e44df9da1
-8c9f8eed6b7f2eade9a2a87a265824bf1783a4ea 14eb0a14e1d39ba9b42f00bc76d3e67d97bba597 morganb <morgan.bleunven@maif.fr> 1708506958 +0100	commit (merge): Merge branch 'main' into morgan
-14eb0a14e1d39ba9b42f00bc76d3e67d97bba597 1e07df912e4053f63a23b93c01a2b6cb4015cf1d morganb <morgan.bleunven@maif.fr> 1708507074 +0100	commit: maj
