@@ -5,7 +5,9 @@ main {
     background-repeat: no-repeat;
     background-position: center;
     opacity: 0.9;
-    background-color: blueviolet;
+    background-color: gray;
+    /* background: url('./img/fond-etoile.jpg'); */
+    z-index: 1;
 }
 
 
