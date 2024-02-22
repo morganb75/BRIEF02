@@ -1,83 +1,85 @@
 /* Media query pour les ecrans
  de taille moyenne de 768px à 1023px */
  @media (767px < width < 1024px){
-    header {
+    main {
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+        padding-left: 15px;
+    }
+
+    .card-container-img {
+        height: 100%;
+        width: 100%;
+    }
+
+    .card-container {
+        width: unset;
+        justify-content: flex-end;
+    }
+
+    .card-container-text p:first-child {
+        word-wrap: break-word;
+    }
+    
+    .card-container-text p:nth-child(2) {
+        word-wrap: break-word;
+    }
+
+    .card-container-btn {
+        padding-left: 15px;
         justify-content: space-around;
     }
 
-    .logo {
-        width: 500px;
-        height: 120px;
-        padding-left: 130px;
+    .card-container-btn button {
+        width: 150px;
+        height: 30px;
+        border: 2px solid black;
+        border-radius: 15px;
+        font-size: 1.3rem;
+       
     }
-
-    .nav-container {
-        
-        padding-left: 70px;
-    }
-
-    .nav-a {
-        display: flex;
-        flex-direction: column;
-    }
-    
-    
-    
-    
-    /* .menu-brger {
-        display: block;
-    }
-
-    .menu {
-        display: none;
-    }
-
-    .active {
-        display: block;
-    }
-    
-    .inactive {
-        display: none;
-    }
-    .nav-container, .home {
-        display: none;
-    }    */
 }
 
 /* Media query pour les ecrans
  de petite taille jusque 767px */
  @media  (width < 767px){
-    header {
-        font-size: 1.2rem;
-        justify-content: space-between;
+    main {
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+        padding-left: 15px;
     }
 
-    .logo {
-        
-        padding-left:65px;
+    .card-container-img {
+        height: 100%;
+        width: 100%;
     }
 
-    .logo img {
-        width: 200px;
-        height: 80px;
+    .card-container {
+        width: unset;
+        justify-content: flex-end;
+    }
+
+    .card-container-text p:first-child {
+        word-wrap: break-word;
     }
     
-    .menu-brger {
-        display: block;
+    .card-container-text p:nth-child(2) {
+        word-wrap: break-word;
     }
 
-    .menu {
-        display: none;
+    .card-container-btn {
+        padding-left: 15px;
+        justify-content: space-around;
     }
 
-    .active {
-        display: block;
+    .card-container-btn button {
+        width: 150px;
+        height: 30px;
+        border: 2px solid black;
+        border-radius: 15px;
+        font-size: 1.3rem;
+       
     }
-    
-    .inactive {
-        display: none;
-    }
-    .nav-container, .home {
-        display: none;
-    }   
 }

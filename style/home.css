@@ -1,5 +1,5 @@
 main {
-    min-height: 50vw;
+    height: 85vh;
     background-image: url('../assets/img/dragon-ball.jpg');
     background-size: contain;
     background-repeat: no-repeat;

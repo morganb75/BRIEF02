@@ -2,6 +2,8 @@
 main {
     display: flex;
     flex-direction: row;
+    height: 85vh;
+    width: 100%;
     justify-content: space-around;
     background: gray;
 }

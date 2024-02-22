@@ -4,7 +4,6 @@ window.addEventListener('load', () => {
         ` <div class="home">
     <a href="./home.html">Home</a>
     <a href="./recherche.html">Recherche</a>
-
 </div>
 <div class="logo">
     <img src="./assets/img/Dragon-Ball-Logo.png" alt="Logo" >
@@ -23,6 +22,7 @@ window.addEventListener('load', () => {
 <div class="menu">
     <ul>
         <li><a href="./home.html">Home</a></li>
+        <li><a href="./recherche.html">Recherche</a></li>
         <li><a href="./presentation.html">Présentation</a></li>
         <li><a href="./films.html">Films</a></li>
         <li><a href="./contact.html">Contact</a></li>
