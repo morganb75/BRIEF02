@@ -1,11 +1,19 @@
- 
+
+
+
 main {
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
     min-height: 71vh;
     background: gray;
+    background-image: url(./img/dbz5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: auto;
+    color: azure;
 }
 
 form {
@@ -19,7 +27,7 @@ ul {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: stretch;
 }
 
 li {
@@ -29,8 +37,8 @@ li {
     
 }
 
-textarea ,input {
-    width: 600px;
+textarea, input {
+    width: auto;
     border-radius: 30px;
     border:2px solid black;
     box-shadow: 10px 10px 10px black;
@@ -38,18 +46,16 @@ textarea ,input {
 
 textarea {
    margin-bottom: 30px;
-   font-size: 1.5rem;
+   font-size: 1rem;
    padding-left: 10px;
-
-
 }
 
 input {
     height: 50px;
-    font-size: 2rem;
+    font-size: 1rem;
     padding-left: 10px;
 }
 
 label {
-    font-size: 1.8rem;
+    font-size: 1.3rem;
 }

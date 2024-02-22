@@ -1,0 +1,85 @@
+/* Media query pour les ecrans
+ de taille moyenne de 768px à 1023px */
+ @media (767px < width < 1024px){
+    header {
+        justify-content: space-around;
+    }
+    main{
+        background-image: url(./img/dbz8.png);
+        background-repeat: no-repeat;
+        z-index: auto;
+        background-size: cover;
+        width: 100%;
+    }
+    label{
+        font-size: 1.5rem ;
+    }
+    input {
+        font-size: 1.3rem;
+    }
+    .logo {
+        width: 500px;
+        height: 120px;
+        padding-left: 130px;
+    }
+
+    .nav-container {
+        padding-left: 70px;
+    }
+
+    .nav-a {
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
+
+/* Media query pour les ecrans
+ de petite taille jusque 767px */
+ @media  (width < 767px){
+    header {
+        font-size: 1.2rem;
+        justify-content: space-between;
+    }
+
+    main{
+        background-image: url(./img/dbz9.jpg);
+        z-index: auto;
+        background-size: cover;
+        width: 100%;
+    }
+    label{
+        font-size: 1rem ;
+    }
+    input {
+        font-size: 1rem;
+    }
+    .logo {
+        
+        padding-left:65px;
+    }
+
+    .logo img {
+        width: 200px;
+        height: 80px;
+    }
+    
+    .menu-brger {
+        display: block;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .active {
+        display: block;
+    }
+    
+    .inactive {
+        display: none;
+    }
+    .nav-container, .home {
+        display: none;
+    }   
+}
